@@ -1,0 +1,11 @@
+teller := 1;
+whileski(teller < 20)
+doski{
+  ledski (1 , 0 , 0 , 100);
+  ledski (2 , 100 , 0 , 0);
+  teller := (teller + 1);
+  ledski (1 , 100 , 0 , 0);
+  ledski (2 , 0 , 0 , 100);
+}
+ledski (1 , 0 , 0 , 0);
+ledski (2 , 0 , 0 , 0);

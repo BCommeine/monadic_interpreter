@@ -1,0 +1,22 @@
+teller := 1;
+whileski(teller < 200)
+doski{
+  ifski ~ #lightski leftski
+  thenski {
+    ifski ~ #lightski rightski
+    thenski {
+      driveski 70;
+    } elski {
+      turnski leftski 70;
+    }
+  } elski {
+    ifski ~ #lightski rightski
+    thenski {
+      turnski rightski 70;
+    } elski {
+      driveski -70;
+    }
+  }
+  teller := (teller + 1);
+}
+driveski 0;

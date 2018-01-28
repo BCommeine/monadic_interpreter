@@ -1,0 +1,12 @@
+teller := 1;
+whileski(teller < 60)
+doski{
+  ifski (#sensorski > 15)
+  thenski {
+    driveski 100;
+  } elski {
+    turnski rightski 100;
+  }
+  teller := (teller + 1);
+}
+driveski 0;
